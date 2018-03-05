@@ -1,0 +1,62 @@
+/**textareas rown="1" cols="50"**/
+.topbar ul li {
+    display: inline;
+    color: aliceblue;
+    word-spacing: 5px;
+}
+body{
+    margin: 0;
+}
+
+nav.topbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:  fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+}
+/** Display Flex habilita outras propriedades. pega as filhas diretas e coloca uma do lado da outra**/
+header {
+    background: url(../img/bg-banner.png);
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    /**Justify content funciona na horizontal**/
+    justify-content: center;
+    align-items: center;
+    /**align itens alinha o texto na vertical**/
+}
+
+
+.sobre > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.desc-sobre {
+    max-width: 40%;
+    margin-left: 30px;
+}
+
+.passos > div {
+    text-align: justify;
+    max-width: 20%;
+    margin-right: 20px;
+}        
+.passo-a-passo h2{
+    text-align: center;
+}
+.passos {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+
+
+
